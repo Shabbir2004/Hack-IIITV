@@ -8,6 +8,7 @@ import Org from './org.jsx';
 import Orgdet from './orgdet.jsx';
 import Prov from './prov.jsx';
 import Provdet from './provdet.jsx';
+import Provider from './provider.jsx';
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/orgdet" element={<Orgdet/>}/>
         <Route path="/prov" element={<Prov/>}/>
         <Route path="/provdet" element={<Provdet/>}/> 
+        <Route path="/provider" element={<Provider/>}/> 
 
         
       </Routes>
